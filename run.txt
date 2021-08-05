@@ -1,0 +1,4 @@
+set projectLocation=D:\Automation Framework\ol_hrms_frw16
+cd %projectLocation%
+set classpath=%projectLocation%\bin;%projectLocation%\lib\*
+java org.testng.TestNG %projectLocation%\testng.xml
